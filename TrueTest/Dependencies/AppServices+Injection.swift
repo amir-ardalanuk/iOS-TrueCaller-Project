@@ -9,7 +9,7 @@ import Foundation
 import Resolver
 import Repository
 import Core
-import Network
+import NetworkLayer
 
 final class DefaultAppServices: AppServiesEnvironment {
     // MARK: - Props

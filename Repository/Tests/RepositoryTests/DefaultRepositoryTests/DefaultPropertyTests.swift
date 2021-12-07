@@ -7,7 +7,7 @@
 
 import Foundation
 import Combine
-import Network
+import NetworkLayer
 import Core
 import XCTest
 @testable import Repository

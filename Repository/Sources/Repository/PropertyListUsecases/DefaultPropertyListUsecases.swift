@@ -6,9 +6,9 @@
 //
 
 import Foundation
-import Network
 import Combine
 import Core
+import NetworkLayer
 
 public struct DefaultProperyUsecases: PropertyListUsecases {
     

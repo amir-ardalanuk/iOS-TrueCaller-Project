@@ -7,7 +7,7 @@
 
 import Foundation
 import XCTest
-@testable import Network
+@testable import NetworkLayer
 
 final class DefaultNetworkTest: XCTestCase {
     // MARK: - Properties
@@ -47,7 +47,7 @@ extension DefaultNetworkTest {
         var request = URLRequest(url: url)
         request.httpMethod = "GET"
         request.setValue("application/x-www-form-urlencoded", forHTTPHeaderField:"Content-Type");
-        
+        request.timeoutInterval = 4
         let expectation = self.expectation(description: "Wait for \(url) to load.")
         var error: NetworkError?
         decoder.decodeProvider = {

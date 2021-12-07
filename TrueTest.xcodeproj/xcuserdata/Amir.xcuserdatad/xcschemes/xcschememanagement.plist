@@ -9,26 +9,6 @@
 			<key>orderHint</key>
 			<integer>4</integer>
 		</dict>
-		<key>Core.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>6</integer>
-		</dict>
-		<key>Network.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>5</integer>
-		</dict>
-		<key>Repository.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>4</integer>
-		</dict>
-		<key>RepositoryTests.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>0</integer>
-		</dict>
 		<key>Rx (Playground) 1.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -53,17 +33,17 @@
 		<key>TrueTest 1.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>3</integer>
+			<integer>4</integer>
 		</dict>
 		<key>TrueTest.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>2</integer>
 		</dict>
 		<key>TrueTestTests.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -74,6 +54,16 @@
 			<true/>
 		</dict>
 		<key>F4BFE0F826CE85F1002B6DFA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F4BFE16226CED59E002B6DFA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F4BFE1AA26CFC993002B6DFA</key>
 		<dict>
 			<key>primary</key>
 			<true/>

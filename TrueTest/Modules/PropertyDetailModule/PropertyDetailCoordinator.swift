@@ -32,7 +32,6 @@ final class PropertyDetailCoordinator: Coordinator<Void> {
     deinit {
         self.$viewController.release()
         self.$viewModel.release()
-        Resolver.root.cache.reset()
     }
 
     // MARK: - Coordinator

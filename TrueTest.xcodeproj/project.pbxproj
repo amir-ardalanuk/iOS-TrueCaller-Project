@@ -80,7 +80,6 @@
 		294AF745274A3649002B7D8B /* PropertyDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyDetailViewController.swift; sourceTree = "<group>"; };
 		296EABC7274BE73200E25B6D /* AppTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		296EABC9274BE73200E25B6D /* AppTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTest.swift; sourceTree = "<group>"; };
-		29BEDBA9275FA6B6005335D7 /* NetworkLayer */ = {isa = PBXFileReference; lastKnownFileType = folder; path = NetworkLayer; sourceTree = "<group>"; };
 		F496DE3B26D10AA10074F847 /* Resolver+Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Resolver+Test.swift"; sourceTree = "<group>"; };
 		F4BFE0F926CE85F1002B6DFA /* TrueTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrueTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4BFE0FC26CE85F1002B6DFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -168,18 +167,9 @@
 			path = AppTest;
 			sourceTree = "<group>";
 		};
-		29BEDBA8275FA6B6005335D7 /* Packages */ = {
-			isa = PBXGroup;
-			children = (
-				29BEDBA9275FA6B6005335D7 /* NetworkLayer */,
-			);
-			name = Packages;
-			sourceTree = "<group>";
-		};
 		F4BFE0F026CE85F1002B6DFA = {
 			isa = PBXGroup;
 			children = (
-				29BEDBA8275FA6B6005335D7 /* Packages */,
 				F4BFE0FB26CE85F1002B6DFA /* TrueTest */,
 				296EABC8274BE73200E25B6D /* AppTest */,
 				F4BFE0FA26CE85F1002B6DFA /* Products */,

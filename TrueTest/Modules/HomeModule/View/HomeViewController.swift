@@ -50,6 +50,7 @@ class HomeViewController: UIViewController {
         view.addSubview(childView.view)
         childView.didMove(toParent: self)
     }
+    
     override func loadView() {
         view = UIView()
         view.backgroundColor = .red

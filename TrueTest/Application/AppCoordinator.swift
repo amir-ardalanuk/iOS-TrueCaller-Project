@@ -15,7 +15,6 @@ final class AppCoordinator: Coordinator<Void> {
     // MARK: - Dependencies
     
     @LazyInjected private var features: FeatureModulesEnvironment
-    //@LazyInjected private var appService: AppService
     
     // MARK: - Properies
     private let window: UIWindow

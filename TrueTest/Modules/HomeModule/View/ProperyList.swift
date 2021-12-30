@@ -23,7 +23,6 @@ struct ProperyListView: View {
     var body: some View {
             VStack {
                 ScrollView {
-                    VStack {
                         LazyVStack(spacing: 8) {
                             ForEach(state.items) { item in
                                 Button {
@@ -39,7 +38,6 @@ struct ProperyListView: View {
                                     viewAction(.fetch)
                                 }
                         }
-                    }
                 }
                 if state.isLoading {
                     ProgressView()
